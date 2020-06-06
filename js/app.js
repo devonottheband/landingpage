@@ -1,7 +1,5 @@
 window.addEventListener('DOMContentLoaded', () => {
 
-
-
 const navigation_items = {
   'Past': 'section1',
   'Present': 'section2',
@@ -45,93 +43,12 @@ for (const item in navigation_items) {
   });
 
   // Add back to-button
-
   document.querySelector('#backbtn')
-  .style.backgroundColor = "blueviolet"; 
-  
+  .style.backgroundColor = "blueviolet";   
   const button = document.getElementById("backbtn")
-button.addEventListener( 'click', function( event ) {
-    window.location.href = "https://google.com";
-});
-
-  
+  button.addEventListener( 'click', function( event ) {
+  window.location.href = "#" ;
   });
 
+  });
 
-
-  
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/**
- * 
- * Manipulating the DOM exercise.
- * Exercise programmatically builds navigation,
- * scrolls to anchors from navigation,
- * 
- * and highlights section in viewport upon scrolling.
- * 
- * Dependencies: None
- * 
- * JS Version: ES2015/ES6
- * 
- * JS Standard: ESlint
- * 
-*/
-
-/**
- * Define Global Variables
- * 
-*/
-
-
-/**
- * End Global Variables
- * Start Helper Functions
- * 
-*/
-
-
-
-/**
- * End Helper Functions
- * Begin Main Functions
- * 
-*/
-
-// build the nav
-
-
-// Add class 'active' to section when near top of viewport
-
-
-// Scroll to anchor ID using scrollTO event
-
-
-/**
- * End Main Functions
- * Begin Events
- * 
-*/
-
-// Build menu 
-
-// Scroll to section on link click
-
-// Set sections as active
